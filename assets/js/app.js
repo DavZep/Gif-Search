@@ -10,7 +10,7 @@ function createBtns(){
         suggestionsBtn.setAttribute("data-input", suggestions[i])
         suggestionsBtn.textContent = suggestions[i];
 
-        btns.appendChild(suggestionsBtn);
+        btns.prepend(suggestionsBtn);
     };
 };
 createBtns();
@@ -97,11 +97,12 @@ document.addEventListener("click", function(event) {
     btns.textContent = "";
 
     createBtns();
-    // if(event.target.id === "select-gif") {
-    //     gifElm.textContent = "";
-    //     btnSearch(input);
+    if(event.target.id === "select-gif") {
+        event.preventDefault();
+        gifElm.textContent = "";
+        btnSearch(userInput);
 
-    // }
+    }
 
 
 });

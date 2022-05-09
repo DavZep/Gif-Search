@@ -33,6 +33,20 @@ h1 {
     font-size: 60px;
 }
 
+#example-text {
+    padding: 0;
+    margin-top: 20px;
+    position: relative;
+    left:40%;
+    width: 20%;
+    border-radius: 8px;
+    background-color: rgba(56, 56, 56, 0.54);
+    border: solid 1px white;
+    text-align: center;
+
+
+}
+
 input {
     border-radius: 8px;
 }
