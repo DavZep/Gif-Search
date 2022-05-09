@@ -1,0 +1,102 @@
+html {
+    min-height: 100%;
+}
+
+header {
+    margin-bottom: 10px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(56, 56, 56, 0.612);
+    font-family: 'Monoton', cursive;
+    border-bottom: solid 1px white ;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('https://media0.giphy.com/media/2jmma5yWrWUF6uaBkw/giphy.gif?cid=ecf05e47eg4satd632b5mujdyl7iyut29sq6raafcfunn99g&rid=giphy.gif&ct=g');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+input {
+    border-radius: 8px;
+}
+
+form {
+    padding: 10px;
+    font-size: 25px !important;
+    display: inline-block;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: rgba(56, 56, 56, 0.54);
+}
+
+button {
+    margin: 10px;
+    font-size: 25px !important;
+    font-family: 'Bangers', cursive;
+    border: solid 1px white !important;
+}
+
+img {
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#select-gif {
+    margin: 10px;
+    font-size: 25px !important;
+    font-family: 'Bangers', cursive;
+}
+
+.gif-div {
+    margin: 10px;
+    background-color: rgba(56, 56, 56, 0.54);
+    border-radius: 10px;
+    border: solid 1px rgb(255, 255, 255);
+    float: left;
+}
+
+#gifElm {
+    float: left;
+}
+
+#gifs-appear-here {
+    /* height: 500px; */
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.footer {
+    padding: 6px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(56, 56, 56, 0.54);
+}
+
+.footer,
+.push {
+    height: 40px;
+}
+
+
