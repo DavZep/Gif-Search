@@ -19,7 +19,7 @@ function btnSearch(input) {
     console.log(input)
 
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-    input + "&api_key=XdEqRHbc1bUMrE6Ga9bOKg8zCQu6PpJf&limit=10";
+    input + `&api_key=${keys.gify}&limit=10`;
 
     fetch(queryURL)
     .then(res => res.json())
